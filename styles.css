@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(12, 156, 60);
+  }
+  h1 {
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+  }
+  p {
+    text-align: center;
+    color: red;
+  }
