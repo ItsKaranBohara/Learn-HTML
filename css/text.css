@@ -1,0 +1,16 @@
+h2{
+    
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 100px 0;
+    font-family: sans-serif;
+    font-size: 90px;
+    text-shadow: 15px -20px 05px #000;
+}
+p{
+    
+    text-indent: 50px;
+    line-height: 32px;
+    word-spacing: 15px;
+}
