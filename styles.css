@@ -7,6 +7,12 @@ body {
     color: blue;
   }
   p {
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
     text-align: center;
     color: red;
+    background-color: blueviolet;
+    padding:50px;
+    margin-left: 300px;
   }

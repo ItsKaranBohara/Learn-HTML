@@ -6,6 +6,9 @@
     margin: 100px 0;
     text-shadow: 0px 0px 05px crimson;
 }
+.body{
+    background-color: grey;
+}
 .color{
     color: crimson;
 }
@@ -15,3 +18,4 @@
 .font-size{
     font-size: 50px;
 }
+

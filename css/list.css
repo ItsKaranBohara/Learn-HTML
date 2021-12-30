@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+    background-color: #f1f1f1;
+    
+}
+.container{
+    padding: 50px;
+    background-color: #fff;
+    font-size: 0px;
+    text-align: center;
+}
+.inline-block{
+    font-size: 18px;
+    display: inline-block;
+    width: 50%;
+}
+.box-one {
+    border: 5px solid green;
+    padding: 20px;
+}
+.box-one p{
+    
+}
+.box-one input{
+    font-size: 20px;
+    border: none;
+    padding: 12px 35px;
+    background-color: aqua;
+    border-radius: 30px;
+    color: blue;
+}
+.box-two-wrapper{
+    border: 5px solid green;
+    padding: 30px ;
+    margin-left: 30px;
+}
+.li{
+    list-style: none;
+}
