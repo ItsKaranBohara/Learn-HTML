@@ -1,0 +1,50 @@
+.container{
+  width: 100%;
+  background-color: crimson;
+  padding: 20px 100px;
+    box-shadow: 0 10px 20px #00000050;
+  }
+  .clear::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  h1{
+    margin: 0;
+    float: left;
+    padding-left: 50px;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    font-size: 25px;
+    float: left;
+    padding: 8px 25px;
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    text-decoration:none;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+ .logo{
+   float: left;
+  width: 20%;
+ }
+  .middle{
+    float: left;
+       width: 60%;
+  }
+  .last{
+    float: left;
+        width: 20%;
+    border-radius: 20px;
+  }
+  li:hover{
+      background-color: rgb(147, 155, 139);
+  }
+    

@@ -1,0 +1,33 @@
+body{
+    background-color: darkgrey;
+    padding: 30px;
+    
+}
+
+.item{
+    
+    width: 30%;
+}
+.item-one{
+    float: left;
+    background-color: aqua;
+}
+.item-two{
+    float: right;
+    background-color: brown;
+}
+.item-three{
+    clear: left;
+    
+    background-color: darkorange;
+}
+.item-four{
+   
+    float: left;
+    background-color: rgb(63, 139, 0);
+}
+
+.item-five{
+   
+    background-color: darkslateblue;
+}
