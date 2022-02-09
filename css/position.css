@@ -1,0 +1,29 @@
+.container{
+    background-color: rgb(0, 136, 0);
+    padding: 50px;
+}
+.box{
+    height: 100px;
+}
+.box-one{
+    background-color: brown;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box-two{
+    background-color: blue;
+} 
+
+.box-three{
+    background-color: cadetblue;
+}
+.box-four{
+    background-color: chartreuse;
+}
+.fas{
+    font-size: 60px;
+}

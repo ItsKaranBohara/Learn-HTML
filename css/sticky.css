@@ -1,0 +1,98 @@
+.box{
+    background-color: beige;
+}
+
+.container{
+    background-color: rgb(237, 243, 243);
+   padding: 10px 30px;
+}
+.bx{
+    height: 100px;
+    
+}
+.box-one{
+    background-color: rgb(71, 63, 143);
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+}
+.box-two{
+    
+    background-color: blue;
+} 
+
+
+.box-three{
+    background-color: cadetblue;
+}
+.box-four{
+    background-color: chartreuse;
+}
+.fas{
+    font-size: 60px;
+}
+img{
+    height: inherit;
+    object-fit: contain;
+    justify-content: center;
+}
+/* navbar code */
+.contain{
+    background-color: #f6f;
+      height: 100px;
+    position: sticky;
+    top: 0;
+    padding: 20px 50px;
+    box-shadow: 0 10px 20px #e2151550;
+    
+    }
+    .clear::after{
+      content: '';
+      display: table;
+      clear: both;
+    }
+   
+        h1{
+      margin: 0;
+      
+      padding-left: 50px;
+    }
+    ul{
+      margin: 0;
+      padding: 0;
+      float: right;
+      list-style-type: none;
+  }
+  ul li{
+      font-size: 25px;
+      display: inline-block;
+      padding: 8px 25px;
+      margin: 0 10px;
+      background-color: #fff;
+      border: 1px solid #aaa;
+      text-decoration:none;
+           
+    }
+   .logo{
+    float: left;
+    width: 10%;
+   }
+    .middle{
+      float: left;
+      width: 60%;
+    }
+    .last{
+        width: 30%;
+        float: left;
+    }
+    .last ul li{
+      float: left;
+      border-radius: 20px;
+    }
+    li:hover{
+      background-color: rgb(147, 155, 139);
+    }
+      
