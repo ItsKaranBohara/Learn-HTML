@@ -1,0 +1,17 @@
+.item{
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+}
+.item-one{
+
+    background-color: aqua;
+}
+.item-two{
+    
+    background-color: blueviolet;
+}
+.item-three{
+
+    background-color: tomato;
+}

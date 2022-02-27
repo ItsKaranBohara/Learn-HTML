@@ -1,3 +1,48 @@
+/* navbar section  */.flex-nav{
+    background-color: crimson;
+}
+.logo-text{
+    color: #fff;
+}
+.flex-nav{
+    display: flex;
+    padding: 0 100px;
+}
+.logo-box{
+    flex-basis: 20%;
+}
+.nav-manu{
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+.nav-item{
+    font-size: 20px;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 0 10px;
+}
+.nav-account{
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+      
+}
+.nav-btn{
+    font-size: 20px;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 0 10px;
+    border-radius: 25px;
+}
 body{
     height: 100%;
     background: paleturquoise;
@@ -6,7 +51,7 @@ body{
 nav{
     width: 250px;
     position: absolute;
-    top: 0px;
+    top: 100px;
     bottom: 0;
     background: rgba(0, 0, 0,0.1);
     border-radius: 10px;

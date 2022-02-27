@@ -1,0 +1,31 @@
+.container{
+    background-color: burlywood;
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    justify-content:flex-start;
+    /* justifu content maa space between,center,space around,space-evenly, */
+     align-items: center;
+     /* align item flex-start,stretch,center, flex-end */
+       flex-wrap: wrap;
+       /*flex-wrap nowrap vaye second row maa aaudaina */
+    }
+    .item{
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .item-one{
+        flex-basis:20%;
+        flex-grow: 0;
+/* flex grow ratio maa devide garne ho aafno div vitra */
+        
+    }
+    .item-two{
+        flex-basis: 60%;
+        flex-grow: 0;
+    }
+    .item-three{
+        flex-basis: 20%;
+        flex-grow: 0;
+    }
+   

@@ -1,0 +1,17 @@
+.item{
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+}
+.item-one{
+    order: 3;
+    background-color: aqua;
+}
+.item-two{
+    order: 1;
+    background-color: blueviolet;
+}
+.item-three{
+    order: 2;
+    background-color: tomato;
+}
