@@ -1,7 +1,9 @@
 .flex-nav{
     display: flex;
-    background-color: cadetblue;
+    
     padding: 0px 50px;
+    color: #222;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.3 );
 }
 .logo{
     flex-basis: 20%;
@@ -10,6 +12,7 @@
     flex-basis: 60%;
     display: flex;
     align-items: center;
+    border-radius: 20px;
 }
 .nav-list{
     display: flex;
@@ -20,8 +23,8 @@
 .nav-item{
     font-size: 20px;
     padding: 8px 20px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #222;
+    color: #222;
     margin: 0 10px;
 }
 .nav-account{
@@ -33,8 +36,8 @@
 .nav-btn{
     font-size: 20px;
     padding: 8px 20px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #222;
+    color: #222;
     margin: 0 10px;
     border-radius: 25px;
 }

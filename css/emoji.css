@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(165, 220, 228);
+  }
+  .face {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: darkgoldenrod;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+  .face::before {
+    content: "";
+    top: 170px;
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    background: maroon;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    transition: 0.5s;
+  }
+  .face:hover {
+    background: red;
+    transition: 0.5s;
+  }
+  .face:hover::before {
+    content: "";
+    top: 210px;
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    background: maroon;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }otspot
+  .eyes {
+    position: relative;
+    top: -40px;
+    display: flex;
+  }
+  .eyes .eye {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: block;
+    background: white;
+    border-radius: 50%;
+    margin: 0 15px;
+  }
+  .eyes .eye::before {
+    content: '';
+    position: absolute;
+    top: 3%;
+    left: 18px;
+    transform: translate(-50%, 50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: black;
+  }
+  

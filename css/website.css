@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/mine/image/Burger.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.nav-bar{
+    display: flex;
+    padding: 15px 96px;
+    /* border: 1px solid red; */
+}
+.nav-logo img{
+    width: 99px;
+    cursor: pointer;
+}
+.nav-links{
+    flex: 1;
+
+}
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 25px;
+}
+.nav-links ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.7s;
+    
+}
+.btn:hover{
+    background-color: rgb(230, 230, 76);
+}
+.nav-bar .btn{
+    float: right;
+    margin-top: 12px;
+}
+.banner-title{
+    margin: 80px 130px;
+    /* border: 1px solid red; */
+    color: white;
+}
+.banner-title h1{
+    font-size: 64px;
+    margin: ;
+}
+span{
+    color: yellow;
+}
+.vertical-bar{
+    height: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.search-icon{
+    height: 60%;
+    width: 80px;
+
+}
+.search-icon .fas{
+    margin: 53px 23px;
+    margin-top: 36px;
+    display: block;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.social-icon{
+    height: 35%;
+    width: 80px;
+    background: yellow;
+    text-align: center;
+    padding-top: 27%;
+   
+    bottom: 0;
+    position: absolute;
+}
+.social-icon .fab{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid rgb(15, 210, 41);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.notifications{
+    display: flex;
+    width: 400px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: yellow;
+    align-items: center;
+}
+.contents{
+    flex-basis: 50%;
+    padding: 10px;
+
+}
+.notifications-img{
+    flex-basis: 33%;
+
+}
+.notifications-img img{
+    width: 100%;
+    padding: 0px 50px;
+}
+.contents a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin: -2px -4px;
+    padding: 15px 10px;
+}
+.contents p{
+    text-align: right;
+    position: absolute;
+    right: 140px;
+}
+@media (max-width: 700px;){
+    .vertical-bar{
+        display: none;
+    }
+    .banner-title{
+        margin: 80px 40px;
+    }
+    hero{
+        margin: 120px 50px;
+        color: white;
+    }

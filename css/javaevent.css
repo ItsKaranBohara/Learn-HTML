@@ -1,0 +1,21 @@
+.container{
+    width: 400px;
+    box-shadow: 2px 2px 10px;
+    padding: 50px;
+    align-items: center;
+   margin: 30px;
+ 
+justify-content: center;
+}
+h1{
+color: aqua;
+background-color: brown;
+font-size: 35px;
+text-align: center;
+}
+.btn{
+    background-color: red;
+    align-content: center;
+    font-size: 20px;
+
+}

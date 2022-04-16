@@ -36,8 +36,9 @@ nav ul li a:hover{
      color: seashell;  
 }
 nav ul ul{
+background-color:salmon;
 position: absolute;
-left: 250px;
+left:140px;
 width: 200px;
 top: 0;
 display: none;
@@ -52,6 +53,7 @@ nav ul span{
 }
 nav ul .dropdown{
     position: relative;
+    
 }
 nav ul .dropdown:hover >ul{
 display:initial;

@@ -1,0 +1,21 @@
+.one {
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .image{
+      display: inline-block;
+      margin-right: 100px;
+      width: 400px;
+      padding: 30px;
+      border-radius: 8px;
+      box shape-outside: 0px 0px 15px #00040;
+  }
+.one img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid #555;
+}
