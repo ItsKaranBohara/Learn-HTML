@@ -1,7 +1,7 @@
 
 /* flex container */
 body{
-  background-color: #8ee5e1;
+  background-color: #a1e3df;
   }
 /* flex container */
 
@@ -208,11 +208,10 @@ button:hover{
   display: flex;
 }
 .social-icon{
-  border: 2px dotted black;
 padding: 10px;
 flex-basis: 30%;
 display: flex;
-color: #fff;
+color: #000;
 }
 .social-icon .fab{
 display: flex;
@@ -223,12 +222,11 @@ border-radius: 50%;
 
 }
 .esection{
-  font-family: serif;
-  border: 2px dotted black;
+font-family: serif;
 align-items: center;
 justify-content: center;
 flex-basis: 70%;
-color: #fff;
+color: #000;
 display: flex;
 text-align: center;
 }

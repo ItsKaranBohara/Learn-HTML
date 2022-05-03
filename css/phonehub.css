@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  padding: 30px 50px;
+  width: 768px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2), 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+.phone {
+  padding: 20px;
+  background-color: antiquewhite;
+}
+.phoneItm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.phoneName {
+  font-size: 20px;
+}
+/* .phoneItm:not(:last-child) {
+  border-bottom: 1px solid #f1f3f5;
+  padding: 7px 0px;
+} */
+.btn {
+  border: none;
+  padding: 8px 30px;
+  background-color: crimson;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  margin: 10px;
+}
