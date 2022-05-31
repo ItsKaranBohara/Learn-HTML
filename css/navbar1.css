@@ -1,6 +1,6 @@
 .container{
   padding: 20px 100px;
-    box-shadow: 0 10px 20px #00000050;
+  box-shadow: 0 10px 20px #00000050;
   }
   .clear::after{
     content: '';
@@ -8,7 +8,7 @@
     clear: both;
   }
   h1{
-      margin: 0;
+     margin: 0;
     float: left;
     padding-left: 50px;
   }
@@ -31,6 +31,6 @@ ul li{
     
   }
   li:hover{
-      background-color: rgb(147, 155, 139);
+     background-color: rgb(147, 155, 139);
   }
     

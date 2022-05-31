@@ -1,27 +1,25 @@
+body{
+  width: 100%;
+}
 .container{
   width: 100%;
   background-color: crimson;
   padding: 20px 50px;
-    box-shadow: 0 10px 20px #00000050;
-    border-style: ;
-  }
+  box-shadow: 0 10px 20px #00000050;
+ }
   .clear::after{
     content: '';
     display: table;
     clear: both;
   }
   h1{
-    margin: 0;
-    
-    padding-left: 50px;
+     padding-left: 50px;
   }
   ul{
-    margin: 0;
-    padding: 0;
-    float: right;
-    list-style-type: none;
-}
-ul li{
+     padding: 0;
+     float: right;
+   }
+   ul li{
     font-size: 25px;
     display: inline-block;
     padding: 8px 25px;
@@ -33,18 +31,18 @@ ul li{
   }
  .logo{
   float: left;
-  width: 20%;
+  flex-basis: 20%;
  }
-  .middle{
-    float: left;
-    width: 60%;
-  }
-  .last ul li{
-    float: left;
-    width: 20%;
-    border-radius: 20px;
-  }
-  li:hover{
-    background-color: rgb(147, 155, 139);
-  }
+ .middle{
+  float: left;
+  flex-basis: 60%;
+}
+.last ul li{
+  float: left;
+  flex-basis: 20%;
+  border-radius: 20px;
+}
+li:hover{
+  background-color: rgb(147, 155, 139);
+}
     
