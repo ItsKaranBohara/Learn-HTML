@@ -12,8 +12,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #EFEFEF;
+  background-color: #d4d0d0;
 }
+
 .slide-container{
   max-width: 1120px;
   width: 100%;
@@ -25,8 +26,12 @@ body{
   border-radius: 25px;
 }
 .card{
+  align-items: center;
+  display: inline-block;
+  width: 300px;
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #fff;
+  margin: 10px;
 }
 .image-content,
 .card-content{
